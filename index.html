@@ -76,14 +76,14 @@ button{
 <body>
 
 <div class="card">
-<div class="team-label">👥 Команда 1 · 6-А класс</div>
+<div class="team-label">👥 Команда 2 · 6-Б класс</div>
 <h2>💱 Станция 3: Обмен валют</h2>
 
 <p>Ребята, я уже в новом городе и мне нужно обменять деньги.</p>
 
 <div class="info">
-📌 Курс обмена: 1 евро = 24,5 лея<br>
-📌 Обмен: 24 евро<br>
+📌 Курс обмена: 1 евро = 22,6 лея<br>
+📌 Обмен: 25 евро<br>
 📌 Комиссия: 3 лея за операцию<br><br>
 
 ❓ Сколько лей я получу на руки после обмена?
@@ -105,13 +105,12 @@ function check(){
 
 let ans = document.getElementById("answer").value.trim();
 
-// 24.5 × 20 = 490
-// 490 − 10 = 480
-let correct = "585";
+
+let correct = "562";
 
 if(ans === correct){
     document.getElementById("result").innerText = "✔ Верно!";
-    document.getElementById("code").innerText = "🔐 Код: тема";
+    document.getElementById("code").innerText = "🔐 Код: Мир";
 }else{
     document.getElementById("result").innerText = "❌ Неверно, попробуй ещё раз";
     document.getElementById("code").innerText = "";
